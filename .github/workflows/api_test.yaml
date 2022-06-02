@@ -26,7 +26,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: Test with pytest
         run: |
-          python ./test/api_test_helper.py >> $TOKEN_ENV
+          python ./test/api_test_helper.py
 
   api_test:
     runs-on: ubuntu-latest

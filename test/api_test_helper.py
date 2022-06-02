@@ -6,7 +6,7 @@ import shutil
 
 def main():
     replace()
-    return 1
+    return 0
 
 
 def replace():
