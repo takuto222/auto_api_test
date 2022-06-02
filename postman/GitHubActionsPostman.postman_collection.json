@@ -75,7 +75,7 @@
 	"variable": [
 		{
 			"key": "todoId",
-			"value": "-1",
+			"value": "0",
 			"type": "string"
 		},
 		{

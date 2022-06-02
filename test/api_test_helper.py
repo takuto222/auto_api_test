@@ -17,7 +17,7 @@ def replace():
         postman_dict = json.load(f)
         for i, var in enumerate(postman_dict["variable"]):
             if var["key"] == "todoId":
-                postman_dict["variable"][i]["todoId"] = 1
+                postman_dict["variable"][i]["value"] = 1
                 break
 
     copy_postman_file = f"./{os.path.split(tar_postman_file)[1]}"
