@@ -45,3 +45,7 @@ jobs:
 
       - name: E2E Tests
         run: newman run ./GitHubActionsPostman.postman_collection.json
+
+      - name: Cleanup
+        run: |
+          rm -f ./GitHubActionsPostman.postman_collection.json
