@@ -3,8 +3,10 @@ name: aws-hello
 
 on:
   workflow_run:
-    workflows: ["aws-deploy"]
-    types: [completed]
+    workflows:
+      - aws-deploy
+    types:
+      - completed
 
 jobs:
   hello:
