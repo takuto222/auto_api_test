@@ -7,6 +7,7 @@ on:
       - aws-deploy
     types:
       - completed
+      - requested
 
 jobs:
   on-success:
