@@ -4,7 +4,8 @@ name: aws-hello
 on:
   workflow_run:
     workflows: ["aws-deploy"]
-    types: [completed]
+    types:
+      - completed
 
 jobs:
   api_test:
