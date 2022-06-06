@@ -16,3 +16,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name: echo
+        uses: echoo
