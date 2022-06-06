@@ -14,5 +14,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: hello
-        uses: echo "Hello"
-
+        uses: echo "Hello World"
