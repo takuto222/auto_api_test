@@ -2,11 +2,7 @@ name: aws-hello
 
 
 on:
-  workflow_run:
-    workflows:
-      - aws-deploy
-    types:
-      - completed
+  workflow_call:
 
 jobs:
   hello:
