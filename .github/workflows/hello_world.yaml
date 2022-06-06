@@ -2,12 +2,9 @@ name: aws-hello
 
 
 on:
-  workflow_dispatch:
-    branches:
-        - main
-  push:
-    branches:
-        - main
+  workflow_run:
+    workflows: ["aws-deploy"]
+    types: [completed]
 
 jobs:
   hello:
