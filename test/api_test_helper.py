@@ -6,6 +6,7 @@ import shutil
 
 def main():
     replace()
+    os.system("newman run ./GitHubActionsPostman.postman_collection.json")
     return 0
 
 
